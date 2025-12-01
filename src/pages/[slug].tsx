@@ -208,7 +208,7 @@ export async function getStaticProps({ params }: { params: any }) {
       mgWidgetId2: "1903363",
       mgWidgetFeedId: "1903362",
       adsKeeperSrc: "https://jsc.mgid.com/site/1066310.js",
-      googleTagId: "G-RZ218Z0QZ1",
+      googleTagId: "G-28D67R3Z7M",
       // <-- set isMgid = 1 để dùng MGID, = 0 để dùng Taboola
       isMgid: 1,
     };
