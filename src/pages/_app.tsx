@@ -9,7 +9,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
-     <script defer src="https://cdn.adsconex.com/js/adsconex-player.js"></script>   
+     {/* <script defer src="https://cdn.adsconex.com/js/adsconex-player.js"></script>    */}
       <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
       <script defer src="https://cdn.adsconex.com/js/adsconex-banner-bw-feji-rl.js"></script>
         
