@@ -79,7 +79,7 @@ export default function Page(data: any) {
 
       <main>
         <div className="container-flu details">
-          <div className="adsconex-banner" data-ad-placement="banner1" id="ub-banner1"></div>
+          <div id="div_adsconex_banner_responsive_1"></div>
           <h1>{article.name}</h1>
         <div id="adsconex-video-container"></div>
           <p className="mb-4 text-lg">Posted: {formatDate(article.dateTimeStart)}</p>
