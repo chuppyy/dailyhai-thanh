@@ -16,7 +16,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         {/* --- HẾT Mã FEJI (HEAD) --- */}
       </Head>
 {/* 🔥 TABOOLA SCRIPT — đặt ngoài HEAD */}
-{/* <Script id="taboola-script" strategy="afterInteractive">
+<Script id="taboola-script" strategy="afterInteractive">
   {`
     window._taboola = window._taboola || [];
     _taboola.push({article:'auto'});
@@ -30,7 +30,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     }(
       document.createElement('script'),
       document.getElementsByTagName('script')[0],
-      '//cdn.taboola.com/libtrc/metaconex-localfejiio/loader.js',
+      '//cdn.taboola.com/libtrc/metaconex-dailynewsusfejiio/loader.js',
       'tb_loader_script'
     );
 
@@ -38,7 +38,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       window.performance.mark('tbl_ic');
     }
   `}
-</Script> */}
+</Script>
 
 
 
