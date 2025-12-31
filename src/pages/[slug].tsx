@@ -81,27 +81,7 @@ export default function Page(data: any) {
         <div className="container-flu details">
           <div className="adsconex-banner" data-ad-placement="banner1" id="ub-banner1"></div>
           <h1>{article.name}</h1>
-          {/* Banner FEJI */}
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.unibotshb = window.unibotshb || { cmd: [] };
-            unibotshb.cmd.push(()=>{ ubHB("feji.io_long"); });
-          `
-        }}
-      />
-      
-      {/* Video Player FEJI */}
-      <div id="div-ub-feji.io_1723454353847">
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.unibots = window.unibots || { cmd: [] };
-              unibots.cmd.push(function() { unibotsPlayer("feji.io_1723454353847") });
-            `
-          }}
-        />
-      </div>
+        <div id="adsconex-video-container"></div>
           <p className="mb-4 text-lg">Posted: {formatDate(article.dateTimeStart)}</p>
 
           <Suspense fallback={<p>Loading ...</p>}>
@@ -210,7 +190,7 @@ export async function getStaticProps({ params }: { params: any }) {
       adsKeeperSrc: "https://jsc.mgid.com/site/1066310.js",
       googleTagId: "G-28D67R3Z7M",
       // <-- set isMgid = 1 để dùng MGID, = 0 để dùng Taboola
-      isMgid: 1,
+      isMgid: 0,
     };
 
     return {
