@@ -82,7 +82,7 @@ export default function Page(data: any) {
           <div id="div_adsconex_banner_responsive_1"></div>
           <h1>{article.name}</h1>
         <div id="adsconex-video-container"></div>
-        <Script 
+        {/* <Script 
         src="https://cdn.adsconex.com/js/adsconex-player.js"
         
         // strategy="afterInteractive" tương đương với defer (mặc định)
@@ -95,7 +95,7 @@ export default function Page(data: any) {
           // Nếu bên trong script đó có hàm init, gọi nó ở đây sẽ an toàn 100%
           // Ví dụ: window.AdsConexPlayer.init(); 
         }}
-      />
+      /> */}
           <p className="mb-4 text-lg">Posted: {formatDate(article.dateTimeStart)}</p>
 
           <Suspense fallback={<p>Loading ...</p>}>
