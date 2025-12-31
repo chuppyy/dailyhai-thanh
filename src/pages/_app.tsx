@@ -16,29 +16,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         
         {/* --- HẾT Mã FEJI (HEAD) --- */}
       </Head>
-<Script 
-        src="https://cdn.adsconex.com/js/adsconex-player.js" 
-        strategy="afterInteractive" 
-      />
-      <Script 
-        src="https://cdn.adsconex.com/js/adsconex-banner-bw-feji-rl.js" 
-        strategy="afterInteractive" 
-      />
-      {/* <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script> */}
-      
-      <Script 
-        src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
-        strategy="afterInteractive"
-      />
 
-      {/* QUAN TRỌNG: GPT thường đi kèm đoạn mã khởi tạo (googletag.cmd.push...).
-         Bạn nên thêm đoạn đó ngay bên dưới dưới dạng inline script như sau:
-      */}
-      <Script id="google-ad-manager-init" strategy="afterInteractive">
-        {`
-          window.googletag = window.googletag || {cmd: []};
-        `}
-      </Script>
 
 
 
